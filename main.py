@@ -31,13 +31,13 @@ if googledrive.capitalize() == 'Y':
     gauth = GoogleAuth()           
     drive = GoogleDrive(gauth)  
 ndir = os.path.join(os.getcwd(),'/Insta-stuff')
-if not os.path.exists(ndir):
-    mkdir(ndir)
+#if not os.path.exists(ndir):
+ #   mkdir(ndir)
 
 
 ndirr = os.path.join(os.getcwd(),'/Lists')
-if not os.path.exists(ndirr):
-    mkdir(ndirr)
+#if not os.path.exists(ndirr):
+ #   mkdir(ndirr)
 
 while True:
     clear()
